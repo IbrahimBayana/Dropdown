@@ -90,6 +90,6 @@ Assert.assertEquals(actualTitle, expectedTitle,"it is not found!!!");
 
     @AfterMethod
     public void tearDown() throws Exception {
-        //driver.close();
+        driver.close();
     }
 }
