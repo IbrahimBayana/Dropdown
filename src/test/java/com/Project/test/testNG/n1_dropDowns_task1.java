@@ -77,7 +77,7 @@ Thread.sleep(2000);
         String expectedTitle = "Facebook – Anmelden oder Registrieren";
         String actualTitle = driver.getTitle();
 
-Assert.assertEquals(actualTitle, expectedTitle,"it is not found!!!");
+Assert.assertEquals(actualTitle, expectedTitle,"it is not found...");
 
 
     }
